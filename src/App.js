@@ -2,7 +2,7 @@ import React from "react";
 import Header from "./components/header";
 import Recipes from "./components/recipes";
 import Search from "./components/search";
-import "./app.css";
+import "./App.css";
 
 const API = "http://starlord.hackerearth.com/recipe";
 
