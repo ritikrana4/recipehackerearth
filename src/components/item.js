@@ -5,7 +5,11 @@ const Item = ({ data }) => {
 
   return (
     <div className="item">
-      <img src={data.image} style={{ width: "300px", height: "250px" }} />
+      <img
+        src={data.image}
+        style={{ width: "300px", height: "250px" }}
+        alt="im"
+      />
       <div className="headers">
         <div className="heading">{data.name}</div>
         <div className="category">{data.category.toUpperCase()}</div>
